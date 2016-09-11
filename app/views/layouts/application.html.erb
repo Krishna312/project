@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project1</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+<!--meta tag -->
+
+<meta charset="UTF-8">
+<meta name="description" content="Project -1 Portfolio Website">
+<meta name="keywords" content="HTML,CSS,XML,Some JavaScript">
+<meta name="author" content="Krishna">
+
+<!-- Favicons-->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<!--Body-->
+
+<body>
+<%= render 'partials/nav' %>
+<%= yield %>
+
+
+
+<!-- ##### Logo ##### -->
+<div class="container hidden-xs">
+<div class="row">
+<div class="col-xs-offset-3 col-xs-2 display-flex align-items-center" data-mh="logo-item">
+<div class="logo-side-line"></div>
+<!-- .col --></div>
+<div class="col-xs-2 padding-top-sm padding-bottom-sm" data-mh="logo-item">
+<a href="/" title="Portfolio Logo"><img class="img-responsive center-block" src="\Users\Krishna\Pictures\logo.png" alt="Portfoilio Logo" /></a>
+<!-- .col --></div>
+<div class="col-xs-2 display-flex align-items-center" data-mh="logo-item">
+<div class="logo-side-line"></div>
+<!-- .col --></div>
+<!-- .row --></div>
+<!-- .container --></div>
+
+<!--Header-->
+
+<div class="page-header">
+<h3 class="text-center"><a class="text-gold" href="/" title="Krishna"><em>Krishna Chauhan</a></em></h3>
+<h2 class="text-gold text-center padding-top-md padding-bottom-md"><em>Krishna Chauhan</em></h2>
+<h1 class="text-center"><a class="text-gold" href="/" title="Krishna"><em>Krishna Chauhan</a></em></h1>
+
+<!-- .page-header --></div>
+
+<div class="container padding-bottom-md">
+<div class="row">
+<div class="col-xs-15 col-sm-8">
+<article class="padding-bottom-md">
+<h2 class="text-center" width="360" height="460" class="text-gold margin-top-reset"> Coder Factory </h2>
+<section class="post-content">
+
+<div class="transmission-image margin-bottom-sm">
+<div class="display-flex align-items-center transmission-image-transfer">
+<h3><img width="360" height="460" class="img-responsive center-block border-lighten-gray wp-post-image" alt="Learning & Development" /></h3></div>
+</div>
+
+<p><h3 class="text-justify">I started my journey for six month to learn and developed my skills and knowledge in the technology world. Coder Factory is a platform where you will learn new technology.</h3></p>
+
+<p><h3 class="text-justify">The path that leads to fulfil your dream is the path that leads to technology awareness. In order to attain technology knowledge we have to know old and new technology that is around in this world.</h3></p>
+
+<!-- Share Part -->
+<aside class="padding-top-lg padding-bottom-md">
+<nav class="display-flex justify-content-center border-top-lighten-gray border-bottom-lighten-gray padding-top-md padding-bottom-md">
+
+<ul class="list-inline display-flex align-items-center">
+<li><h4 class="font-open-sans margin-reset">Shared by</h4></li>
+<li data-share="Linkedin"><a class="text-lighten-gray brand-facebook" href="https://www.linkedin.com/" target="_blank" title="Linkedin">
+<span class="fa-stack fa-lg">
+<span class="fa fa-circle fa-stack-2x"></span>
+<span class="fa fa-linkedin fa-stack-1x fa-inverse"></span>
+</span>
+</a></li>
+<li data-share="twitter"><a class="text-lighten-gray brand-twitter" href="https://twitter.com/share" target="_blank" title="Twitter">
+<span class="fa-stack fa-lg">
+<span class="fa fa-circle fa-stack-2x"></span>
+<span class="fa fa-twitter fa-stack-1x fa-inverse"></span>
+</span></a></li>
+<li data-share="google-plus"><a class="text-lighten-gray brand-google-plus" href="https://plus.google.com/share" target="_blank" title="Google Plus">
+<span class="fa-stack fa-lg">
+<span class="fa fa-circle fa-stack-2x"></span>
+<span class="fa fa-google-plus fa-stack-1x fa-inverse"></span>
+</span>
+</a></li>
+<li data-share="git-hub"><a class="text-lighten-gray brand-google-plus" href="https://github.com/" target="_blank" title="Github">
+<span class="fa-stack fa-lg">
+<span class="fa fa-circle fa-stack-2x"></span>
+<span class="fa fa-github fa-stack-1x fa-inverse"></span>
+</span>
+</a></li>
+
+<!-- .list-inline --></ul>
+
+</nav>
+</aside>
+
+<!-- .col --></div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+
+<nav class="padding-bottom-xs" data-mh="footer-link-item">
+<h4 class="text-gold">Links</h4>
+<ul class="list-unstyled">
+<li><a class="text-gold" href="https://github.com/" title="Github">Github</a></li>
+<li><a class="text-gold" href="https://www.linkedin.com" title="Linkedin">Linkedin</a></li>
+<!-- .list-unstyled --></ul>
+</nav>
+
+
+</body>
+</html>
